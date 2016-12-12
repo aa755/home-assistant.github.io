@@ -27,7 +27,7 @@ device_tracker 3:
   cookie_hsid: POST requests send this cookie for authenticating the google account
   cookie_ssid: POST requests send this cookie for authenticating the google account
   data_freq: POST data payload for requesting location
-  data_at: POST data payload for requesting location
+  home_url: URL of the google plus profile of the person being tracked.
 ```
 
 ###How to obtain the above values (except `platform` and `id`):
@@ -36,7 +36,8 @@ device_tracker 3:
 - If using this component in Self Mode, open Firefox and log into Google as main@google.com 
 and visit aboutme.google.com.
 If instead, you wish to use this component in Safe Mode, log into dummy@google.com, 
-and visit the Google Plus profile page of main@google.com. You may want to select the "remember this computer" option while logging in, so that the cookie fields don't get invalidated every few days.
+and visit the Google Plus profile page of main@google.com. The url of this page goes to the `home_url` field above.
+You may want to select the "remember this computer" option while logging in, so that the cookie fields don't get invalidated every few days.
 - Open the Instruments pane (Ctrl + Shift + C)
 - Click the network tab
 - If in Self Mode, click the three bar menu on the top left. If in Safe Mode, skip this step.
