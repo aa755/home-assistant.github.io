@@ -53,4 +53,3 @@ for python requests. If you don't trust that website, note that they provide sou
 fields in the config file. Copy the corresponding values to the config file.
 - The URL field is the first argument of `requests.post` in the last line of the python code.
 
-These steps may have to be repeated every 14 days. The `cookie_*` fileds seems to persist if the "remember this computer" option was selected when logging in.
