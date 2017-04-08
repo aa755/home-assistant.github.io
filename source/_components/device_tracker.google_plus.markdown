@@ -14,7 +14,7 @@ If you share your Android's location with Google, this component fetches those l
 Suppose your Android phone is linked to your Google Account, say main@gmail.com.
 This component can be used in 2 modes: 
 - Self Mode: It visits "aboutme.google.com" while appearing (to Google) to be logged in as main@gmail.com. Using this mode requires putting your Google cookies into the home assistant config file. If anyone gets access to these cookies, they may be able to do anything with your google account, e.g. delete the account.
-- Safe Mode: In this safer mode, the component visits the Google Plus profile page of main@gmail.com, while appearing (to Google) to be logged in as a dummy Google account, say dummy@gmail.com. In this case, (only) the cookies of dummy@gmail.com are needed. Just for the initial setup, you need to install the Google Plus Android App on Android, and log into the app as main@gmail.com, and in its location settings, share the location with dummy@gmail.com. After that, you can uninstall the Google Plus app on Android.
+- Safe Mode: In this safer mode, the component visits the Google Plus profile page of main@gmail.com, while appearing (to Google) to be logged in as a dummy Google account, say dummy@gmail.com. In this case, (only) the cookies of dummy@gmail.com are needed. Just for the initial setup, you need to install the Google Maps Android App on Android, and log into the app as main@gmail.com, and in its location settings, share the location with dummy@gmail.com. After that, you can uninstall the Google Plus app on Android.
 
 
 ```yaml
